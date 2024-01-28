@@ -5,7 +5,6 @@ set(CMAKE_CXX_STANDARD 17)
 
 
 # Set a default build type if none was specified
-# Based on: https://github.com/openchemistry/tomviz/blob/master/cmake/BuildType.cmake
 set(DEFAULT_BUILD_TYPE "Release")
 if(EXISTS "${CMAKE_SOURCE_DIR}/.git")
   set(DEFAULT_BUILD_TYPE "Debug")
