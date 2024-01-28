@@ -40,7 +40,7 @@ Follow this link for detailed testing : https://docs.google.com/document/d/1PCtj
 ## Setup
 
 ### Prerequisites
--Ensure you have CMake installed on your system
+Ensure you have CMake installed on your system
 
 ### Cloning
 
@@ -54,7 +54,7 @@ $ cd traffic_processing_sdk
 #### Installing librdkafka using vcpkg
 
 1. Install vcpkg (This is used because CMake build for librdkafka is unsupported):
-    ####Form inside the traffic_processing_sdk directory run:
+   Form inside the traffic_processing_sdk directory run:
     ```bash
     $ git clone https://github.com/Microsoft/vcpkg.git
     $ cd vcpkg
@@ -69,7 +69,7 @@ $ cd traffic_processing_sdk
     ```
 
 ### Building
-####Form inside the traffic_processing_sdk directory run:
+Form inside the traffic_processing_sdk directory run:
 ```bash
 $ mkdir build
 $ cd build
