@@ -1,6 +1,6 @@
 # Traffic Processing SDK
 
-The Traffic Processing SDK is designed to facilitate the handling of web server responses by logging the data and subsequently sending it to a Kafka producer. The project utilizes the librdkafka library for Kafka integration and libcpr for making HTTP requests to the server. It is structured as a CMake project, ensuring portability and ease of building across different platforms.
+The Traffic Processing SDK is designed to facilitate the handling of web server responses by logging the data and subsequently sending it to a Kafka producer. The project utilizes the librdkafka library for Kafka integration and libcpr for making HTTP requests to the server. It is as a CMake project.
 
 ## Primary Functionalities
 
