@@ -2,4 +2,5 @@
 build/
 .cache/
 out/build/
-vcpkg
+vcpkg/
+.vcpkg/
