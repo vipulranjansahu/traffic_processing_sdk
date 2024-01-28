@@ -39,6 +39,9 @@ Follow this link for detailed testing : https://docs.google.com/document/d/1PCtj
 
 ## Setup
 
+### Prerequisites
+-Ensure you have CMake installed on your system
+
 ### Cloning
 
 ```bash
@@ -51,9 +54,8 @@ $ cd traffic_processing_sdk
 #### Installing librdkafka using vcpkg
 
 1. Install vcpkg (This is used because CMake build for librdkafka is unsupported):
-
+    ####Form inside the traffic_processing_sdk directory run:
     ```bash
-    $ cd traffic_processing_sdk
     $ git clone https://github.com/Microsoft/vcpkg.git
     $ cd vcpkg
     $ ./bootstrap-vcpkg.sh
@@ -67,13 +69,13 @@ $ cd traffic_processing_sdk
     ```
 
 ### Building
-
+####Form inside the traffic_processing_sdk directory run:
 ```bash
-$ cd traffic_processing_sdk
 $ mkdir build
 $ cd build
 $ cmake ..
 $ cmake --build .
 $ .\Debug\traffic_processor.exe <brokers> <topic>
 ```
+- Note : If face any issue try rebuilding
 Type URL and hit enter to make an HTTP request and produce a message to Kafka.
