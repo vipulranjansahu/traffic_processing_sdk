@@ -44,11 +44,13 @@ The README file contains a link to the testing documentation, providing users an
 ```bash
 git clone https://github.com/vipulranjansahu/traffic_processing_sdk.git
 cd traffic_processing_sdk
-## Dependencies Installation
+```
 
-### Installing librdkafka using vcpkg
+### Dependencies Installation
 
-1. **Install vcpkg if not already installed:**
+#### Installing librdkafka using vcpkg
+
+1. Install vcpkg if not already installed:
 
     ```bash
     cd traffic_processing_sdk
@@ -58,13 +60,13 @@ cd traffic_processing_sdk
     ./vcpkg integrate install
     ```
 
-2. **Install librdkafka:**
+2. Install librdkafka:
 
     ```bash
     ./vcpkg install librdkafka
     ```
 
-## Building
+### Building
 
 ```bash
 cd traffic_processing_sdk/build
@@ -72,3 +74,4 @@ cmake ..
 cmake --build .
 .\Debug\traffic_processor.exe <brokers> <topic>
 ```
+Type URL and hit enter to make an HTTP request and produce a message to Kafka.
