@@ -42,8 +42,8 @@ Follow this link for detailed testing : https://docs.google.com/document/d/1PCtj
 ### Cloning
 
 ```bash
-git clone https://github.com/vipulranjansahu/traffic_processing_sdk.git
-cd traffic_processing_sdk
+$ git clone https://github.com/vipulranjansahu/traffic_processing_sdk.git
+$ cd traffic_processing_sdk
 ```
 
 ### Dependencies Installation
@@ -53,25 +53,27 @@ cd traffic_processing_sdk
 1. Install vcpkg (This is used because CMake build for librdkafka is unsupported):
 
     ```bash
-    cd traffic_processing_sdk
-    git clone https://github.com/Microsoft/vcpkg.git
-    cd vcpkg
-    ./bootstrap-vcpkg.sh
-    ./vcpkg integrate install
+    $ cd traffic_processing_sdk
+    $ git clone https://github.com/Microsoft/vcpkg.git
+    $ cd vcpkg
+    $ ./bootstrap-vcpkg.sh
+    $ ./vcpkg integrate install
     ```
 
 2. Install librdkafka:
 
     ```bash
-    ./vcpkg install librdkafka
+    $ ./vcpkg install librdkafka
     ```
 
 ### Building
 
 ```bash
-cd traffic_processing_sdk/build
-cmake ..
-cmake --build .
-.\Debug\traffic_processor.exe <brokers> <topic>
+$ cd traffic_processing_sdk
+$ mkdir build
+$ cd build
+$ cmake ..
+$ cmake --build .
+$ .\Debug\traffic_processor.exe <brokers> <topic>
 ```
 Type URL and hit enter to make an HTTP request and produce a message to Kafka.
