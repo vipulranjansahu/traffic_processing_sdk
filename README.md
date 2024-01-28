@@ -35,7 +35,7 @@ The project aims to be packaged as an SDK to facilitate plug-and-play integratio
 
 ## Testing Documentation
 
-The README file contains a link to the testing documentation, providing users and contributors with information on how to test and verify the functionalities of the Traffic Processing SDK.
+Follow this link for detailed testing : https://docs.google.com/document/d/1PCtji7W9pUrobwRyat7FAOHtmiQ_1CTNT_ss1Tk8_ZA/edit?usp=sharing
 
 ## Setup
 
@@ -50,7 +50,7 @@ cd traffic_processing_sdk
 
 #### Installing librdkafka using vcpkg
 
-1. Install vcpkg if not already installed:
+1. Install vcpkg (This is used because CMake build for librdkafka is unsupported):
 
     ```bash
     cd traffic_processing_sdk
