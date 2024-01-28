@@ -54,7 +54,7 @@ $ cd traffic_processing_sdk
 #### Installing librdkafka using vcpkg
 
 1. Install vcpkg (This is used because CMake build for librdkafka is unsupported):
-   Form inside the traffic_processing_sdk directory run:
+   From inside the traffic_processing_sdk directory run:
     ```bash
     $ git clone https://github.com/Microsoft/vcpkg.git
     $ cd vcpkg
@@ -69,7 +69,7 @@ $ cd traffic_processing_sdk
     ```
 
 ### Building
-Form inside the traffic_processing_sdk directory run:
+From inside the traffic_processing_sdk directory run:
 ```bash
 $ mkdir build
 $ cd build
@@ -78,4 +78,4 @@ $ cmake --build .
 $ .\Debug\traffic_processor.exe <brokers> <topic>
 ```
 - Note : If face any issue try rebuilding
-Type URL and hit enter to make an HTTP request and produce a message to Kafka.
+-Type URL and hit enter to make an HTTP request and produce a message to Kafka.
